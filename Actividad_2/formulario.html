@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor">
+       <form>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+    <br><br>
+
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+    <br><br>
+
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+    <br><br>
+
+    <label for="direccion">Dirección</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Ingrese su dirección" required>
+    <br><br>
+
+    <label for="pago">Forma de pago</label>
+    <select id="pago" name="pago" required>
+        <option value="">Seleccione una opción</option>
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta">Tarjeta de crédito/débito</option>
+        <option value="transferencia">Transferencia bancaria</option>
+        <option value="paypal">PayPal</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+    </div>
+</body>
+</html>

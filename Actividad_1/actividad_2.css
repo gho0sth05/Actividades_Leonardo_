@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Cambiado a horizontal */
+    height: 100vh;
+    gap: 16px; /* Espacio entre los divs */
+    justify-content: stretch;
+    background: white;
+    padding:0;
+}
+
+.container > div {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+    font-size: 2.5rem;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1  { background: red; }
+.box2  { background: red; }
+.box3  { background: red; }
+.box4  { background: red; }
+.box5  { background: red; }
+.box6  { background: red; }
+.box7  { background: red; }
+.box8  { background: red; }
+.box9  { background: red; }
+.box10 { background:red; }
+.box11 { background: red; }
+.box12 { background: red; }

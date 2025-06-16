@@ -1,0 +1,141 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.contenedor {
+    background-color: whites;
+    width: 390px;
+    height: 280px;
+    box-shadow: 9px 10px 10px 1px #c6c6c6;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2.5px rgb(192, 192, 192);
+    border-radius: 7px;
+    padding: 20px 27px 40px 27px;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contenido{
+ font-size: 14px;
+ color: #555;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+.texto{
+    display: flex;
+    margin-bottom: 20px;
+    color:green;
+    font-size: 20px;
+}
+.aaa{
+    color:green;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.antes{
+    color:green;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-left: 7px;
+}
+.ahora{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #007bff;
+    color:white;
+    border: none;
+    padding: 10px,20px;
+    font-size: 14 px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 390px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: red;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+#name {
+    padding: 4px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: 290px;
+    box-sizing: border-box;
+}
+#name:focus {
+    border-color: #0056b3;
+    background-color: #f0f8ff;
+}
+#email {
+    padding: 4px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 205px;
+    box-sizing: border-box;
+}
+#email:focus {
+    border-color: #0056b3;
+    background-color: #f0f8ff;
+}
+#telefono{
+    padding: 4px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 280px;
+    box-sizing: border-box;
+}
+#telefono:focus {
+    border-color: #0056b3;
+    background-color: #f0f8ff;
+}
+#direccion{
+    padding: 4px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 275px;
+    box-sizing: border-box;
+}
+#direccion:focus {
+    border-color: #0056b3;
+    background-color: #f0f8ff;
+}
+#pago{
+    padding: 4px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 240px;
+    box-sizing: border-box;
+}
+#pago:focus {
+    border-color: #0056b3;
+    background-color: #f0f8ff;
+}
+
+

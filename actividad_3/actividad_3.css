@@ -1,0 +1,47 @@
+/* El body define los estilos generales de la página */
+body {
+  font-family: sans-serif; /* Da una tipografía específica al texto de la web */
+  background-color: #f7f7f7; /* Color de fondo de la página */
+  padding: 40px; /* Espacio entre el borde de la página y el contenido */
+}
+
+/* El contenedor centraliza y da formato al área principal */
+.contenedor {
+    position: relative; /* Posiciona de forma relativa para elementos hijos posicionados */
+    width: 400px; /* Ancho fijo del contenedor */
+    height: 800px; /* Alto fijo del contenedor */
+    background-color: #e0e0e0; /* Color de fondo del contenedor */
+    border: 2px solid #333; /* Borde del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra alrededor del contenedor */
+    overflow: visible;/* Asegura que sticky funcione */
+}
+
+/* La caja es un elemento posicionado dentro del contenedor */
+.caja {
+    width: 100px; /* Ancho de la caja */
+    height: 100px; /* Alto de la caja */
+    color: #000; /* Color del texto dentro de la caja */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 100px; /* Centra el texto verticalmente */
+    font-weight: bold; /* Texto en negrita */
+    background-color: #fffdfd; /* Color de fondo de la caja */
+}
+.caja1{
+    background-color: crimson; /* Da un color de fondo rojo intenso a la caja 1 */
+    top: 10px; /* Posiciona la caja 1 a 10px desde la parte superior del contenedor */
+    left: 10px;/* Posiciona la caja 1 a 10px desde la parte izquierda del contenedor */
+    position: relative;
+}
+.caja2{
+    background-color: royalblue; /* Da un color de fondo azul intenso a la caja 2 */
+    position: sticky;/* Hace que la caja 2 se quede "pegada" al hacer scroll */
+    top: 10px;/* Se pega a 10px desde la parte superior del contenedor, igual que la caja1 */
+    left: 120px;/* Se pega a la derecha de la caja1 (100px ancho + 10px separación) */
+    z-index: 2;/* Asegura que quede por encima de otros elementos si es necesario */
+}                                   
+.caja3{
+    background-color: seagreen;
+    margin-top: 600px; 
+    margin-left: 250px;
+}
